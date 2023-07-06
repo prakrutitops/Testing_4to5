@@ -1,0 +1,76 @@
+Testing:
+
+1)Manual ->Actions -> By Human
+
+2)Automation -> By Software
+
+Job Opportunity:
+
+QA => Quality Assurance
+Software Tester
+QC =>Quality Control
+
+=========================Manual ===============================
+
+
+Testing:
+
+Expected Result = Actual Result [Testing Pass]
+Expected Result != Actual Result [Testing Not Pass]
+
+=> Testing will Identify Any Gaps,Error or Missing Requirements
+
+
+
+Testing Def:
+Testing is a process used to identify correctness,completeness and quality
+of Developed computer software.
+
+Correctness => Error or defect will correct
+Completeness => Requirement FullFill
+Quality => Quality 
+
+=======================================================================
+SDLC:[Software Development Lifecycle]
+
+1)Requirement Gathering:
+
+Types of Requirement
+1)Functional Requirement
+2)Non-Functional Requirement
+
+written format -> 
+UML ->Unified Modeling Language[Diagram]
+Rfflow
+
+
+
+
+
+2)Analysis:
+What
+How
+
+3)Design
+Web Designer
+Graphic Designer
+
+4)Implementation - coding
+Developer
+
+5)Testing
+Tester
+->Market Production
+
+6)Maintenance:
+Types of Maintenance
+1)Corrective:finding the defect and correct it
+2)Adaptive:take it to new platform
+3)Perfective:make it more perfect
+
+
+=========================================================================
+STLC:[Software Testing Lifecycle]
+
+
+
