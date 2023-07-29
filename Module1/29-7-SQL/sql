@@ -1,0 +1,40 @@
+2)DML=>data manipulation language
+=>Insert,Update,Delete
+
+3)DQL=>data query language
+=>Select
+
+1)select all
+2)select col
+3)select row
+4)order
+
+4)DCL=> data control language
+=>rollback,commit
+
+JOIN =>
+INNER JOIN 
+LEFT JOIN
+RIGHT JOIN
+FULL JOIN->
+SELECT * FROM location RIGHT JOIN products on location.id = products.id
+UNION
+SELECT * FROM location LEFT JOIN products on location.id = products.id
+
+
+primary key -> data duplication avoid
+foreign key->index->refrence pass on[JOIN]
+unique key -> uniquely data identify 
+
+Select Functions:
+
+MAX
+MIN
+SUM
+AVG
+COUNT->SELECT COUNT(p_price) FROM products
+
+
+
+
+
