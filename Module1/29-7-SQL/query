@@ -1,0 +1,53 @@
+DML=> Data Manipulation Language
+
+11. insert data
+//insert into tablename (database Field nm) values ('control value')
+insert into models (m_name,m_price) values ('Lenovo G5','25000')
+
+12. multiple value insert
+//INSERT INTO tablename (countrynm) VALUES('india'), ('pakistan')
+INSERT INTO models (m_name) VALUES('Dell'),('Acer')
+
+13. update data
+//update tablenm set databasefieldnm='controlvalue' where id='id'
+update models set m_price='50000' where id='2';
+update models set m_price='60000' where id='3';
+
+
+14. delete data
+//delete from tablenm where id='id'
+
+delete from models where id=4;
+delete from models where id=5;
+
+
+DQL => Data Query Language
+15. select all
+//select * from tablenm
+select *from models
+
+16. particular column dispaly
+//SELECT columnnm from tablenm
+SELECT m_name from models
+
+17. particular row display
+//select * from tablenm where id='id' 
+select * from models where id=2 
+
+19.order by
+//select colnm from tblnm order by colnm asc/desc
+select * from models order by m_price asc //if you 
+select m_price from models order by m_price asc
+
+*-multiple,asterik
+
+18. join
+//select * from state join coun on state.cid=coun.cid
+
+INNER JOIN-JOIN -> SELECT * from sellers  JOIN models on sellers.id = models.id
+LEFT JOIN -> SELECT * from sellers LEFT JOIN models on sellers.id = models.id
+RIGHT JOIN-> SELECT * from sellers RIGHT JOIN models on sellers.id = models.id
+
+20.
+SELECT MIN(price) FROM product_info
+Agreegate Function:MAX,MIN,SUM,AVG
