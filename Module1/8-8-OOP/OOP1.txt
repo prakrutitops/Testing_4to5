@@ -1,0 +1,23 @@
+OOP: Object Oriented Programming
+
+Features of OOP
+
+1)Object:Any living things which has own state and behaviour
+ex: Pen,paper,chair etc..
+
+2)Class:Collection of objects 
+ex:human body
+
+3)Abstraction:Hidden internal details and showing functionalities
+ex:Login Page
+
+4)Encapsualtion:Wrapping up of data or binding of data
+ex:capsule
+
+5)Inheritance:When one object acquire all the properties and behaviour of parent class
+ex:father-son
+
+6)Polymorphism:Many ways to perform anything
+ex:
+1)Method Overloading
+2)Method Overriding
